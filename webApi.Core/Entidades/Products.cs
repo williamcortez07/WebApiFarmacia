@@ -11,13 +11,13 @@ namespace webApi.Core.Entidades
         public int ProductId { get; set; }
         public string ProductTradeName { get; set; }
         public string ProductGenericName { get; set; }
-        public Categories oCategoryId { get; set; }
+        public Categories oCategory { get; set; }
         public decimal SalePrice { get; set; }
         public decimal PurchasePrice { get; set; } 
-        public Presentations oPresentationId { get; set; }
-        public Concentration oConcentrationId { get; set; }
-        public Suppliers oSupplierId { get; set; }
-        public Brands oBrandId { get; set; }
+        public Presentations oPresentation { get; set; }
+        public Concentration oConcentration { get; set; }
+        public Suppliers oSupplier { get; set; }
+        public Brands oBrand { get; set; }
         public int CriticalStock { get; set; }
         public bool IsActive {  get; set; }  
 

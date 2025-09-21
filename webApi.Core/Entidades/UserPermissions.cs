@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace webApi.Core.Entidades
 {
-    public class Permission
+    public class UserPermissions
     {
-        public int PermissionId { get; set; }
-        public Roles oRol { get; set; }
+        public int PermissionId { get; set; } 
+      public Roles oRol { get; set; }
         public string ScreenName { get; set; }
+
+
     }
 }

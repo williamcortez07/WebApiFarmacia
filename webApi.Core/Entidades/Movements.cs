@@ -9,11 +9,11 @@ namespace webApi.Core.Entidades
     public class Movements
     {
         public int MovementId { get; set; }
-        public Products oProductId { get; set; }
+        public Products oProduct { get; set; }
         public string MovementType { get; set; }
         public int Quantity { get; set; }
-        public users oUserId { get; set; }
-        public ProductBatches oBatchId { get; set; }
+        public Users oUser { get; set; }
+        public ProductBatches oBatch { get; set; }
         public string Remarks { get; set; }
     }
 }

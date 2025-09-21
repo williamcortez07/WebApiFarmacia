@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace webApi.Core.Entidades
 {
-    public class Rol
+    public class Roles
     {
         public int RolId { get; set; }
         public string RolDescription { get; set; }

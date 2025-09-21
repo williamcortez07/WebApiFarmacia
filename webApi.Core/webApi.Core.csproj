@@ -46,15 +46,20 @@
     <Compile Include="Entidades\Categories.cs" />
     <Compile Include="Entidades\Concentration.cs" />
     <Compile Include="Entidades\InventoryLoss.cs" />
+    <Compile Include="Entidades\InvoicesDetails.cs" />
+    <Compile Include="Entidades\Invoices.cs" />
     <Compile Include="Entidades\Movements.cs" />
+    <Compile Include="Entidades\PaymentMethod.cs" />
     <Compile Include="Entidades\Permission.cs" />
     <Compile Include="Entidades\Presentations.cs" />
+    <Compile Include="Entidades\ProductReturns.cs" />
     <Compile Include="Entidades\Products.cs" />
     <Compile Include="Entidades\ProductBatches.cs" />
-    <Compile Include="Entidades\Rol.cs" />
+    <Compile Include="Entidades\Roles.cs" />
     <Compile Include="Entidades\Stock.cs" />
     <Compile Include="Entidades\Suppliers.cs" />
-    <Compile Include="Entidades\users.cs" />
+    <Compile Include="Entidades\UserPermissions.cs" />
+    <Compile Include="Entidades\Users.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

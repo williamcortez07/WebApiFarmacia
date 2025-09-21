@@ -13,7 +13,7 @@ namespace webApi.Core.Entidades
         public DateTime ManufacturingDate { get; set; }
         public DateTime ExpirationDate { get; set; }
         public int Quantity { get; set; }
-        public Products oProductId { get; set; }
+        public Products oProduct { get; set; }
         public bool IsActive { get; set; }
 
     }

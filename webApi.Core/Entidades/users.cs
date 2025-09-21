@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace webApi.Core.Entidades
 {
-    public class users
+    public class Users
     {
         public int UserId { get; set; }
         public string UserName { get; set; }
@@ -14,7 +14,7 @@ namespace webApi.Core.Entidades
         public string UserPassword { get; set; }
         public string UserEmail { get; set; }
         public string UserPhone { get; set; }
-        public Rol orol { get; set; } // para obtener el id de la clase rol
+        public Roles orol { get; set; } // para obtener el id de la clase rol
         public bool IsActive { get; set; }
 
     }

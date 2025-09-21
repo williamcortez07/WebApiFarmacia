@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace webApi.Core.Entidades
 {
-    public class InventoryLoss
+    public class InvoicesDetails
     {
-        public int LowId { get; set; }
-        public ProductBatches oBatch { get; set; }
+        public int InvoiceDetailId { get; set; }
         public int Quantity { get; set; }
         public Products oProduct { get; set; }
-        public Users oUser { get; set; }
+        public decimal TotalPrice   { get; set; }
+        public Invoices oInvoice { get; set; }
 
     }
 }
